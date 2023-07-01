@@ -6,32 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT-CARD</title>
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="nft-card">
-        <a href="#">
-            <img src="./src/images/image-equilibrium.jpg" alt="main image">
-        </a>
-        
-        <a href="#">
-            <h2>Equilibrium #3429</h2>
-        </a>
+    <main>
+        <div class="nft-card">
+            <a href="#" class="image-link">
+                <img class="image" src="./src/images/image-equilibrium.jpg" alt="main image">
+            </a>
 
-        <p>Our Equilibrium collection promotes balance and calm.</p>
+            <a href="#" class="title-link">
+                <h2 class="title">Equilibrium #3429</h2>
+            </a>
 
-        <div class="">
-            <p>0.041 ETH </p>
-            <p>3 days left</p>
+            <p class="about">Our Equilibrium collection promotes balance and calm.</p>
+
+            <div class="info">
+                <p class="price">0.041 ETH </p>
+                <p class="days-left">3 days left</p>
+            </div>
+
+            <div class="creator">
+                <img class="avatar" src="./src/images/image-avatar.png" alt="image-avatar">
+                <p class="text">Creation of <a class="name" href="#">Jules Wyvern</a></p>
+            </div>
         </div>
-
-        <div class="">
-            <img src="./src/images/image-avatar.png" alt="image-avatar">
-            <p>Creation of <a href="#">Jules Wyvern</a></p>
-        </div>
-    </div>
+    </main>
 </body>
 
 </html>
